@@ -98,3 +98,4 @@ if __name__ == '__main__':
             ('Area', 'Price'),
             ('City', 'Tax_Rate')}
     print(compute_all_candidate_keys(R_5, F_5))
+    print(compute_all_candidate_keys(R_4, F_4))
