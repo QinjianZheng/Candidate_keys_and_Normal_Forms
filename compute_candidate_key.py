@@ -90,8 +90,8 @@ if __name__ == '__main__':
     # F_3 = {('Prof', 'Fac_Dept'), ('Course', 'Crs_Dept')}
     # R_3 = {'Prof', 'Fac_Dept', 'Course', 'Crs_Dept'}
     # candidate_keys = compute_all_candidate_keys(R_3, F_3)
-    # R_4 = {'Course', 'Prof', 'Room', 'Room_Cap', 'Enrol_I_mt'}
-    # F_4 = {('Course',('Prof', 'Room', 'Room_Cap', 'Enrol_Lmt')), ('Room', ('Room_Cap', 'Enrol_Lmt'))}
+    R_4 = {'Course', 'Prof', 'Room', 'Room_Cap', 'Enrol_I_mt'}
+    F_4 = {('Course',('Prof', 'Room', 'Room_Cap', 'Enrol_Lmt')), ('Room', ('Room_Cap', 'Enrol_Lmt'))}
     R_5 = {'Property_Id', 'City', 'Lot_No', 'Area', 'Price', 'Tax_Rate'}
     F_5 = {('Property_Id', ('City', 'Lot_No', 'Area', 'Price', 'Tax_Rate')), 
             (('City', 'Lot_No'), ('Property_Id', 'Area', 'Price', 'Tax_Rate')),
